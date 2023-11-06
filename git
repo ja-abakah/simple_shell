@@ -1,0 +1,5 @@
+git add .
+
+git commit -m 'Simple shell contributions'
+
+git push
