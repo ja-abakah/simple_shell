@@ -177,5 +177,6 @@ int repeatedChar(char *input, int i);
 int cmp_chars(char str[], const char *delim);
 void _memcpy(void *newptr, const void *ptr, unsigned int size);
 char *_strcat(char *dest, const char *src);
+int cmp_env_name(const char *name);
 
 #endif

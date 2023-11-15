@@ -82,7 +82,7 @@ ptr_env = NULL;
 mov = 0;
 for (i = 0; _environ[i]; i++)
 {
-/* If name and env are equal */
+
 mov = cmp_env_name(_environ[i], name);
 if (mov)
 {
@@ -107,7 +107,7 @@ int _setenv(data_shell *datash)
 
 if (datash->args[1] == NULL || datash->args[2] == NULL)
 {
-get_error(datash, -1);
+errGet(datash, -1);
 return (1);
 }
 

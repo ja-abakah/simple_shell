@@ -84,7 +84,7 @@ printsyntaxerror(datash, input, begin, 0);
 return (1);
 }
 
-i = errorsepop(input + begin, 0, *(input + begin));
+i = errsepop(input + begin, 0, *(input + begin));
 if (i != 0)
 {
 printsyntaxerror(datash, input, begin + i, 1);

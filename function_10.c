@@ -29,7 +29,8 @@ return (1);
 
 if (_strcmp("-", dir) == 0)
 {
-cd_previous(datash);
+previousCd;
+
 return (1);
 }
 

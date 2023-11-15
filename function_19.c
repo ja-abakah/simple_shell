@@ -59,7 +59,7 @@ int i, j, k;
 
 if (datash->args[1] == NULL)
 {
-get_error(datash, -1);
+errGet(datash, -1);
 return (1);
 }
 k = -1;
