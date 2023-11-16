@@ -71,10 +71,11 @@ write(STDOUT_FILENO, elp, _strlen(elp));
 * @datash: data relevant (status and args)
 * Return: 0 on success.
 */
-int(*getBuiltin(char * cmd) )(data_shell *datash)
+int (*getBuiltin(char *cmd)) (data_shell *datash)
 {
-return nullptr;
+return (null);
 }
+
 int exitShell(data_shell *datash)
 {
 unsigned int ustatus;

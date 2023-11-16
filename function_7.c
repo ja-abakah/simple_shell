@@ -61,7 +61,7 @@ if (*input == '\0')
 return (0);
 
 if (*input == ' ' || *input == '\t')
-return (errorsepop(input + 1, i + 1, last));
+return (errsepop(input + 1, i + 1, last));
 
 if (*input == ';')
 if (last == '|' || last == '&' || last == ';')
@@ -92,7 +92,7 @@ if (count == 0 || count > 1)
 return (i);
 }
 }
-return (errorsepop(input + 1, i + 1, *input));
+return (errsepop(input + 1, i + 1, *input));
 }
 
 /**
